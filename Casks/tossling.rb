@@ -1,6 +1,6 @@
 cask "tossling" do
-  version "0.3.0"
-  sha256 "b1b555f8b3e66d482e78d2656726b0cf2e7cac4f31a56197f5d3a15999e85b0a"
+  version "0.3.1"
+  sha256 "9a5cd7f073aa4b47989984d6fdfdf2c1f1e0ff4c8df0ace526a10b4c0a4dc833"
 
   url "https://github.com/tossling/tossling-desktop/releases/download/v#{version}/Tossling-#{version}.dmg"
   name "Tossling"
