@@ -1,12 +1,13 @@
 cask "tossling" do
-  version "0.2.1"
-  sha256 "d44873e56e485e2fe496ca60ba206f5206976d3e02d03ae0654ff2d0ffdfbaed"
+  version "0.3.0"
+  sha256 "b1b555f8b3e66d482e78d2656726b0cf2e7cac4f31a56197f5d3a15999e85b0a"
 
   url "https://github.com/tossling/tossling-desktop/releases/download/v#{version}/Tossling-#{version}.dmg"
   name "Tossling"
   desc "One end-to-end encrypted clipboard for your Macs and Android phone"
   homepage "https://github.com/tossling/tossling-desktop"
 
+  auto_updates true
   depends_on macos: :ventura
 
   app "Tossling.app"
